@@ -1,0 +1,8 @@
+GameProject {
+ ID "CoalitionLoadingScreens"
+ GUID "69C6322404D26447"
+ TITLE "Coalition Loading Screens"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

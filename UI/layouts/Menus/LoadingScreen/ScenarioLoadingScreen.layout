@@ -1,0 +1,183 @@
+FrameWidgetClass {
+ {
+  ImageWidgetClass "{69C653C4DEC4A2B2}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{69C653C5E093C827}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Z Order" -3
+   Color 0 0 0 1
+  }
+  ImageWidgetClass "{69C653C4EBF4AC10}" {
+   Name "Image1"
+   Slot FrameWidgetSlot "{69C653C5E093C9A8}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -250
+    OffsetLeft -250
+    PositionY -250
+    OffsetTop -250
+    SizeX 500
+    OffsetRight -250
+    SizeY 500
+    OffsetBottom -250
+   }
+   "Z Order" -3
+   Texture "{0D268ACAFD5410F7}UI/images/Icons/Coalition2_BCA.edds"
+   Size 500 500
+  }
+  ImageWidgetClass "{69C63EDA7773CBCC}" {
+   Name "LoadingScreen2"
+   Slot FrameWidgetSlot "{69C660A7C1BD6863}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   Opacity 0
+   Texture "{50BC49DEC750B414}UI/images/LoadingScreens/loading_screen_10_BC.edds"
+   Size 1920 1080
+  }
+  ImageWidgetClass "{69C63EDA7D30997D}" {
+   Name "LoadingScreen1"
+   Slot FrameWidgetSlot "{69C660A7DEC391B5}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   Opacity 0
+   Size 1920 1080
+  }
+  ImageWidgetClass "{69C660A5E38C920B}" {
+   Name "CoalLogo"
+   Slot FrameWidgetSlot "{69C653C5E093C9A8}" {
+    Anchor 0 1 0 1
+    PositionX -59.09
+    OffsetLeft -59.09
+    PositionY -463.264
+    OffsetTop -463.264
+    SizeX 500.003
+    OffsetRight -440.913
+    SizeY 500
+    OffsetBottom -36.736
+   }
+   Opacity 0
+   Texture "{0D268ACAFD5410F7}UI/images/Icons/Coalition2_BCA.edds"
+   Size 500 500
+  }
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     "Is Visible" 0
+    }
+   }
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   {
+    OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
+     Prefab "{5DFF03E4AD9D1E85}"
+     {
+      HorizontalLayoutWidgetClass "{5DFF03E4AD9D1EFB}" {
+       Prefab "{5DFF03E4AD9D1EFB}"
+       {
+        FrameWidgetClass "{5DFF03E4AD9D1EF9}" {
+         Prefab "{5DFF03E4AD9D1EF9}"
+         "Is Visible" 0
+        }
+        FrameWidgetClass "{5DFF03E4AD9D1EFE}" {
+         Prefab "{5DFF03E4AD9D1EFE}"
+         "Is Visible" 0
+        }
+        FrameWidgetClass "{5DFF03E4AD9D1EFC}" {
+         Prefab "{5DFF03E4AD9D1EFC}"
+         {
+          OverlayWidgetClass "{5D0C895F3A65DB55}" {
+           Prefab "{5D0C895F3A65DB55}"
+           Color 0.2502 0 0 1
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass "{5DFF03E4AD9D1EF7}" {
+       Prefab "{5DFF03E4AD9D1EF7}"
+       "Is Visible" 0
+       {
+        SizeLayoutWidgetClass "{5DFF03E4AD9D1EEA}" {
+         Prefab "{5DFF03E4AD9D1EEA}"
+         "Is Visible" 0
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{5DFF03E4AD9D1EE1}" {
+       Prefab "{5DFF03E4AD9D1EE1}"
+       Slot OverlayWidgetSlot "{5DFE96D622552BA2}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Padding 1200 0 0 0
+       }
+       {
+        TextWidgetClass "{5DFF03E4AD9D1EE5}" {
+         Prefab "{5DFF03E4AD9D1EE5}"
+         "Horizontal Alignment" Center
+         FontProperties FontProperties "{546AF489DFD25402}" {
+          OutlineSize 3
+         }
+        }
+        TextWidgetClass "{5DFF03E4AD9D1EDB}" {
+         Prefab "{5DFF03E4AD9D1EDB}"
+         "Horizontal Alignment" Center
+         FontProperties FontProperties "{546AF489DFD25402}" {
+          OutlineSize 3
+         }
+        }
+        RichTextWidgetClass "{5DFF03E4AD9D1ED9}" {
+         Prefab "{5DFF03E4AD9D1ED9}"
+         "Horizontal Alignment" Center
+         FontProperties FontProperties "{546AF489DFD25402}" {
+          OutlineSize 3
+         }
+        }
+       }
+      }
+      OverlayWidgetClass "{5DFF03E4AD9D1ED8}" {
+       Prefab "{5DFF03E4AD9D1ED8}"
+       {
+        HorizontalLayoutWidgetClass "{5DFF03E4AD9D1EDC}" {
+         Prefab "{5DFF03E4AD9D1EDC}"
+         {
+          ImageWidgetClass "{5DFF03E4AD9D1ED3}" {
+           Prefab "{5DFF03E4AD9D1ED3}"
+           Color 0.2502 0 0 1
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
