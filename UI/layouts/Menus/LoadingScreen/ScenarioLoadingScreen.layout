@@ -130,6 +130,34 @@ FrameWidgetClass {
         }
        }
       }
+      RichTextWidgetClass "{69D55044C5532373}" {
+       Name "ChangeLog"
+       Slot OverlayWidgetSlot {
+        HorizontalAlign 0
+       }
+       Text "Change Log | July 10th, 2026"\
+       ""\
+       ""\
+       "- The summer modpack refresh has arrived. "\
+       "- 40mm smokes fixed by Harry. They no longer deploy mid-air."\
+       "- New game mode added called \"Attrition\""\
+       "- Added a task creator by Trist for easy task objectives"\
+       "- Added ability to double click on maps to place markers"\
+       "- Fixed the text field on the default marker system to make it easier to type into"\
+       "- Tries to emulate A3 marker system"\
+       "- Added new factions:"\
+       "    - Argentinian 1980"\
+       "    - US Army 1990"\
+       "    - 3tone and 6tone camo variants"\
+       "    - Somalian Rebels 1990"\
+       "    - Modern Bundeswehr"\
+       "    - Tropentarn/flecktarn camo variants"\
+       "    - Chinese PLA"\
+       "    - French Army"
+       FontProperties FontProperties "{546AF489DFD25402}" {
+        OutlineSize 3
+       }
+      }
       VerticalLayoutWidgetClass "{5DFF03E4AD9D1EE1}" {
        Prefab "{5DFF03E4AD9D1EE1}"
        Slot OverlayWidgetSlot "{5DFE96D622552BA2}" {
